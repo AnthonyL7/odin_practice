@@ -17,12 +17,21 @@ function multiply() {
 
 console.log(multiply());
 
-//3 Capitalize
+//#3 Capitalize
 function Capitalize() {
   let text="anthOny";
   const modstring = text.substr(0,1).toUpperCase() + text.substr(1).toLowerCase();
-  console.log(text.substr(0,1).toUpperCase() + text.substr(1).toLowerCase());
+  return modstring;
 }
 
 console.log(Capitalize());
 
+//#4 lastLetter
+function lastLetter() {
+  let text = "hello";
+  let lastLetter = text[text.length - 1];
+  return lastLetter;
+
+}
+
+console.log(lastLetter())
