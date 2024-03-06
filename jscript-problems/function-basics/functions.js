@@ -1,4 +1,4 @@
-//#1
+//#1 add7
 
 function add7() {
   let num = 7;
@@ -7,7 +7,8 @@ function add7() {
 
 console.log(add7());
 
-//#2
+//#2 Multiply
+
 function multiply() {
   let num1 = 7;
   let num2 = 5;
@@ -15,3 +16,13 @@ function multiply() {
 }
 
 console.log(multiply());
+
+//3 Capitalize
+function Capitalize() {
+  let text="anthOny";
+  const modstring = text.substr(0,1).toUpperCase() + text.substr(1).toLowerCase();
+  console.log(text.substr(0,1).toUpperCase() + text.substr(1).toLowerCase());
+}
+
+console.log(Capitalize());
+
