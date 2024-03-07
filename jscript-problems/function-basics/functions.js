@@ -30,8 +30,7 @@ console.log(Capitalize());
 function lastLetter() {
   let text = "hello";
   let lastLetter = text[text.length - 1];
-  return lastLetter;
-
+  return lastLetter;cd 
 }
 
 console.log(lastLetter())
