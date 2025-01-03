@@ -1,5 +1,6 @@
-function filterRange(arr, a, b) {
-  return arr.filter(num => num >= a && num <= b )
+function sortInDecreasingOrder(arr) {
+  sorted = arr.sort((a,b) => b - a);
+  return sorted
 }
 
-console.log(filterRange([5,3,8,1], 1, 4))
+console.log(sortInDecreasingOrder([5,2,1,-10,8]))
