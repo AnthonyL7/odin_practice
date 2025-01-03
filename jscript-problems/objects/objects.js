@@ -1,8 +1,18 @@
-function sumOfTriplesEvens(array) {
-  return array
-  .filter(num => num % 2 === 0)
-  .map(num => num * 3)
-  .reduce((sum, num) => sum + num, 0)
+function camelize(str) {
+  let words = str.split('-')
+  let results = words[0];
+
+  for (let i = 1; i < words.length; i++) {
+    results += words[i].charAt(0).toUpperCase() + words[i].slice(1);
+  }
+  return results
 }
 
-console.log(sumOfTriplesEvens([1,2,3,4,5,6,7,8,9,10]))
+result = camelize('background-color')
+console.log(result)
+
+word = 'anthony'
+console.log(word.slice(1))
+for (let i = 0; i < word.length; i++) {
+  console.log(word[i])
+}
