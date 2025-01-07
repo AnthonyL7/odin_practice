@@ -1,6 +1,6 @@
-function sortInDecreasingOrder(arr) {
-  sorted = arr.sort((a,b) => b - a);
+function sorted(arr) {
+  sorted = arr.sort();
   return sorted
 }
 
-console.log(sortInDecreasingOrder([5,2,1,-10,8]))
+console.log(sorted(['HTML', 'Javascript', 'CSS']))
