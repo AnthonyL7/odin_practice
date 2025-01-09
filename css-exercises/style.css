@@ -2,12 +2,9 @@ body {
   font: 1.2em / 1.5 sans-serif;
 }
 
-.box {
-  border: 5px black dotted;
-  margin-top: 20px;
-  margin-right: 1em;
-  margin-bottom: 40px;
-  margin-left: 2em;
+.box span {
+  background-color: pink;
+  border: 5px solid black;
   padding: 1em;
-
+  display: inline-block;
 }
